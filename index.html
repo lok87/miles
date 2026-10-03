@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="description" content="Book Miles The Barber on Melrose in Los Angeles. Licensed barber with 17 years of experience, 5.0 stars on Booksy, precision cuts, lineups, beard work and premium grooming." />
+  <meta property="og:title" content="Miles The Barber | Los Angeles" />
+  <meta property="og:description" content="17 years of precision on Melrose. Book your next cut with Miles through Booksy." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Miles-The-Barber-In-Los-Angeles.jpg" />
+  <title>Miles The Barber | Los Angeles</title>
+  <style>
+    :root {
+      --ink:#0a0a0a;
+      --paper:#f2eee7;
+      --paper-2:#e9e2d8;
+      --muted:#aaa198;
+      --line:rgba(255,255,255,.12);
+      --red:#d92b2b;
+      --red-dark:#b51f1f;
+      --white:#fffdf9;
+      --shadow:0 28px 80px rgba(0,0,0,.22);
+      --radius:24px;
+      --max:1180px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--ink)}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--paper);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+    img{display:block;width:100%;height:auto;background:#171717}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    .wrap{width:min(calc(100% - 32px),var(--max));margin-inline:auto}
+    .eyebrow{display:flex;align-items:center;gap:10px;font-size:.75rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+    .eyebrow::before{content:"";width:28px;height:2px;background:currentColor}
+    .section{padding:72px 0}
+    .section-dark{background:var(--ink);color:var(--white)}
+    .section-head{display:grid;gap:16px;margin-bottom:30px}
+    .section-head h2{margin:0;font-size:clamp(2.2rem,9vw,5.6rem);line-height:.94;letter-spacing:-.055em;font-weight:900;max-width:900px}
+    .section-head p{margin:0;color:#615c56;max-width:690px;font-size:1rem}
+    .section-dark .section-head p{color:#b9b0a7}
+
+    .topbar{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line);color:white}
+    .topbar-inner{min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:950;letter-spacing:-.03em;line-height:.88;font-size:1rem;text-transform:uppercase}
+    .brand-mark{width:25px;height:34px;border:2px solid white;position:relative;overflow:hidden;border-radius:2px;transform:skew(-6deg)}
+    .brand-mark::before{content:"";position:absolute;inset:-10px;background:repeating-linear-gradient(135deg,var(--red) 0 7px,#fff 7px 14px,#294b7b 14px 21px)}
+    .brand span{display:block}
+    .nav{display:none;align-items:center;gap:22px;font-size:.86rem;font-weight:700}
+    .nav a{opacity:.78;transition:.2s}
+    .nav a:hover{opacity:1}
+    .book-btn,.primary-btn,.service-book{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--red);color:white;border:0;border-radius:999px;font-weight:850;box-shadow:0 12px 28px rgba(217,43,43,.24);transition:transform .2s ease,background .2s ease}
+    .book-btn{padding:11px 16px;font-size:.86rem}
+    .primary-btn{padding:15px 20px;min-height:50px}
+    .book-btn:hover,.primary-btn:hover,.service-book:hover{background:var(--red-dark);transform:translateY(-1px)}
+    .ghost-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid rgba(255,255,255,.28);color:white;border-radius:999px;padding:14px 18px;font-weight:800;transition:.2s}
+    .ghost-btn:hover{border-color:white;background:white;color:black}
+
+    .hero{background:var(--ink);color:white;overflow:hidden}
+    .hero-grid{display:grid;gap:24px;padding:28px 0 34px}
+    .hero-copy{display:grid;gap:18px;align-content:start}
+    .hero-badge{display:inline-flex;width:max-content;max-width:100%;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.15);background:#141414;border-radius:999px;padding:9px 12px;font-size:.76rem;font-weight:800;color:#e5ddd3}
+    .hero-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(217,43,43,.12)}
+    .hero h1{margin:0;font-size:clamp(3.6rem,17vw,8.8rem);letter-spacing:-.075em;line-height:.78;font-weight:950;text-transform:uppercase;max-width:920px}
+    .hero h1 em{font-style:normal;color:var(--red)}
+    .hero-lede{font-size:1.04rem;color:#c7beb5;max-width:630px;margin:0}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:10px}
+    .hero-proof{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:4px}
+    .proof{border-top:1px solid var(--line);padding-top:13px}
+    .proof strong{display:block;font-size:1.32rem;letter-spacing:-.04em}
+    .proof span{display:block;margin-top:3px;color:#9d958d;font-size:.69rem;line-height:1.3;text-transform:uppercase;letter-spacing:.08em;font-weight:750}
+    .hero-visual{position:relative;min-height:470px}
+    .hero-main{height:470px;object-fit:cover;object-position:50% 30%;border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero-card{position:absolute;left:14px;bottom:14px;background:rgba(10,10,10,.86);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:14px 15px;max-width:245px}
+    .stars{letter-spacing:.12em;color:#f3c552;font-size:.78rem}
+    .hero-card strong{display:block;margin-top:5px;font-size:1.05rem}
+    .hero-card span{display:block;color:#bfb6ad;font-size:.76rem;margin-top:2px}
+
+    .ticker{background:var(--red);color:white;overflow:hidden;border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(0,0,0,.1)}
+    .ticker-track{display:flex;width:max-content;animation:ticker 26s linear infinite;padding:12px 0;font-weight:900;text-transform:uppercase;letter-spacing:.1em;font-size:.74rem}
+    .ticker-track span{padding-right:38px}
+    @keyframes ticker{to{transform:translateX(-50%)}}
+    @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.ticker-track{animation:none}.reveal{transition:none!important;transform:none!important;opacity:1!important}}
+
+    .service-list{display:grid;gap:12px}
+    .service{background:var(--white);border:1px solid #dcd3c8;border-radius:20px;padding:19px;display:grid;gap:15px;box-shadow:0 8px 28px rgba(60,45,30,.04)}
+    .service-top{display:flex;align-items:flex-start;justify-content:space-between;gap:18px}
+    .service h3{margin:0;font-size:1.16rem;letter-spacing:-.02em}
+    .service-price{text-align:right;white-space:nowrap}
+    .service-price strong{font-size:1.2rem;color:var(--red)}
+    .service-price del{display:block;color:#8a8178;font-size:.74rem}
+    .service p{margin:0;color:#645e58;font-size:.91rem}
+    .service-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #e5ddd4;padding-top:14px}
+    .duration{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#7e756b}
+    .service-book{padding:10px 14px;font-size:.78rem;box-shadow:none}
+    .price-note{margin-top:14px;font-size:.75rem;color:#746c64}
+
+    .gallery-grid{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:190px;gap:8px}
+    .gallery-btn{padding:0;border:0;background:transparent;position:relative;border-radius:17px;overflow:hidden;cursor:zoom-in}
+    .gallery-btn img{height:100%;object-fit:cover;transition:transform .45s ease}
+    .gallery-btn:hover img{transform:scale(1.035)}
+    .gallery-btn:first-child{grid-column:1/-1;grid-row:span 2}
+    .gallery-btn::after{content:"VIEW";position:absolute;right:10px;bottom:10px;color:white;background:rgba(0,0,0,.62);backdrop-filter:blur(8px);padding:6px 9px;border-radius:999px;font-size:.62rem;font-weight:850;letter-spacing:.11em}
+
+    .about-grid{display:grid;gap:24px}
+    .about-card{background:#151515;border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+    .about-card h3{margin:0 0 9px;font-size:1.4rem;letter-spacing:-.03em}
+    .about-card p{margin:0;color:#bfb6ad}
+    .about-portrait{border-radius:var(--radius);min-height:420px;height:100%;object-fit:cover;object-position:center 22%}
+    .facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+    .fact{background:#0f0f0f;border:1px solid var(--line);border-radius:17px;padding:16px}
+    .fact strong{display:block;font-size:1.5rem;letter-spacing:-.05em}
+    .fact span{display:block;margin-top:3px;color:#918980;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:800}
+
+    .reviews-wrap{display:grid;gap:22px}
+    .rating-panel{background:var(--red);color:white;border-radius:var(--radius);padding:26px;min-height:250px;display:flex;flex-direction:column;justify-content:space-between}
+    .rating-big{font-size:clamp(4.8rem,20vw,8.5rem);line-height:.8;font-weight:950;letter-spacing:-.08em}
+    .rating-panel p{margin:0;max-width:290px;color:#ffe5e5;font-size:.9rem}
+    .review-grid{display:grid;gap:10px}
+    .review{background:#141414;color:white;border:1px solid var(--line);border-radius:20px;padding:20px}
+    .review blockquote{margin:10px 0 16px;font-size:1rem;line-height:1.45;letter-spacing:-.01em}
+    .review-footer{display:flex;justify-content:space-between;gap:16px;align-items:end;color:#9b938a;font-size:.74rem}
+    .review-footer strong{color:white;font-size:.82rem}
+
+    .location{background:var(--paper-2)}
+    .location-card{background:var(--ink);color:white;border-radius:var(--radius);padding:24px;display:grid;gap:20px;overflow:hidden;position:relative}
+    .location-card::before{content:"";position:absolute;width:190px;height:190px;border-radius:50%;background:var(--red);filter:blur(70px);opacity:.26;right:-70px;top:-70px}
+    .address{position:relative}
+    .address h3{margin:0 0 10px;font-size:clamp(1.85rem,8vw,3.4rem);line-height:.95;letter-spacing:-.045em}
+    .address p{margin:0;color:#aaa198}
+    .location-actions{display:flex;flex-wrap:wrap;gap:10px;position:relative}
+    .location-list{display:grid;gap:0;border-top:1px solid var(--line)}
+    .location-list div{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid var(--line);font-size:.83rem}
+    .location-list span{color:#9c948b}
+    .location-list strong{text-align:right}
+
+    .cta{background:var(--red);color:white;text-align:center;padding:68px 0 90px}
+    .cta h2{font-size:clamp(3rem,14vw,8rem);line-height:.8;letter-spacing:-.07em;text-transform:uppercase;margin:0 0 18px;font-weight:950}
+    .cta p{margin:0 auto 24px;max-width:520px;color:#ffe3e3}
+    .cta .primary-btn{background:white;color:var(--ink);box-shadow:none}
+    .cta .primary-btn:hover{background:#f6eee6}
+
+    footer{background:var(--ink);color:white;padding:28px 0 96px}
+    .footer-grid{display:grid;gap:22px}
+    .footer-links{display:flex;flex-wrap:wrap;gap:15px;font-size:.8rem;color:#afa69e;font-weight:750}
+    .footer-small{font-size:.7rem;color:#756e68}
+
+    .sticky-book{position:fixed;z-index:55;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));display:flex;background:rgba(10,10,10,.94);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:8px;box-shadow:0 20px 60px rgba(0,0,0,.35);align-items:center;gap:10px;color:white}
+    .sticky-book .sticky-copy{padding-left:8px;min-width:0;flex:1}
+    .sticky-book strong{display:block;font-size:.78rem;line-height:1.2}
+    .sticky-book span{display:block;color:#9f968e;font-size:.66rem;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .sticky-book a{flex:0 0 auto;padding:11px 15px;background:var(--red);border-radius:12px;font-size:.75rem;font-weight:900}
+
+    .lightbox{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.94);display:none;align-items:center;justify-content:center;padding:18px}
+    .lightbox.open{display:flex}
+    .lightbox img{max-width:min(100%,980px);max-height:88vh;width:auto;height:auto;border-radius:18px;box-shadow:0 30px 100px rgba(0,0,0,.5)}
+    .lightbox-close{position:absolute;top:18px;right:18px;width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.2);background:#111;color:white;font-size:1.25rem;cursor:pointer}
+
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+    .reveal.in{opacity:1;transform:none}
+
+    @media (min-width:720px){
+      .wrap{width:min(calc(100% - 56px),var(--max))}
+      .section{padding:96px 0}
+      .hero-grid{grid-template-columns:1.02fr .98fr;align-items:center;gap:38px;padding:54px 0 60px}
+      .hero-main{height:650px}
+      .hero-visual{min-height:650px}
+      .hero h1{font-size:clamp(5rem,9vw,8.8rem)}
+      .service-list{grid-template-columns:1fr 1fr}
+      .gallery-grid{grid-template-columns:1.5fr 1fr 1fr;grid-auto-rows:230px;gap:10px}
+      .gallery-btn:first-child{grid-column:span 1;grid-row:span 2}
+      .gallery-btn:nth-child(4){grid-row:span 2}
+      .about-grid{grid-template-columns:.86fr 1.14fr;align-items:stretch}
+      .reviews-wrap{grid-template-columns:.75fr 1.25fr}
+      .review-grid{grid-template-columns:1fr 1fr}
+      .location-card{grid-template-columns:1.25fr .75fr;padding:34px}
+      .footer-grid{grid-template-columns:1fr auto;align-items:end}
+      .sticky-book{display:none}
+      footer{padding-bottom:34px}
+    }
+    @media (min-width:980px){
+      .nav{display:flex}
+      .book-btn{padding:12px 18px}
+      .service-list{grid-template-columns:repeat(3,1fr)}
+      .service{min-height:258px;grid-template-rows:auto 1fr auto}
+      .gallery-grid{grid-auto-rows:260px}
+      .about-grid{grid-template-columns:1fr 1fr}
+      .about-card{padding:34px}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BarberShop",
+    "name":"Miles The Barber",
+    "address":{"@type":"PostalAddress","streetAddress":"7361 Melrose Ave, Suite 202","addressLocality":"Los Angeles","addressRegion":"CA","postalCode":"90046","addressCountry":"US"},
+    "aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"744"},
+    "sameAs":["https://www.instagram.com/m1lesthebarber/","https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles"]
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top" aria-label="Miles The Barber home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Miles<br>The Barber</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#location">Location</a>
+        <a href="https://www.instagram.com/m1lesthebarber/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+      <a class="book-btn" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book on Booksy ↗</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <div class="hero-badge"><span class="dot"></span> Booksy Recommended · Los Angeles</div>
+          <h1>Sharp.<br><em>Clean.</em><br>Exact.</h1>
+          <p class="hero-lede">17 years behind the chair. Any style, cut with attention to detail — from clean lineups and skin fades to beard work and full premium grooming.</p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book your cut ↗</a>
+            <a class="ghost-btn" href="#work">See the work ↓</a>
+          </div>
+          <div class="hero-proof" aria-label="Key details">
+            <div class="proof"><strong>5.0★</strong><span>Booksy rating</span></div>
+            <div class="proof"><strong>744</strong><span>Booksy reviews</span></div>
+            <div class="proof"><strong>17 yrs</strong><span>Experience</span></div>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <img class="hero-main" src="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Miles-The-Barber-In-Los-Angeles.jpg" alt="Miles The Barber in his Los Angeles barbershop" fetchpriority="high" />
+          <div class="hero-card">
+            <div class="stars">★★★★★</div>
+            <strong>Precision that keeps clients coming back.</strong>
+            <span>7361 Melrose Ave · Suite 202</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Precision Cuts · Beard + Razor · Skin Fades · Lineups · Hot Towel · Melrose · Los Angeles ·</span>
+        <span>Precision Cuts · Beard + Razor · Skin Fades · Lineups · Hot Towel · Melrose · Los Angeles ·</span>
+      </div>
+    </div>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">Services</div>
+          <h2>Pick the level. Miles handles the details.</h2>
+          <p>Current Booksy pricing is shown below. Active Booksy promotions can change, and your final price is confirmed in Booksy before you book.</p>
+        </div>
+        <div class="service-list">
+          <article class="service reveal">
+            <div class="service-top"><h3>Men’s Cut</h3><div class="service-price"><strong>$55.25</strong><del>$65.00</del></div></div>
+            <p>Any desired style with beard and razor included. No enhancements included.</p>
+            <div class="service-meta"><span class="duration">45 min</span><a class="service-book" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book ↗</a></div>
+          </article>
+          <article class="service reveal">
+            <div class="service-top"><h3>Men’s Haircut Supreme</h3><div class="service-price"><strong>$74.80</strong><del>$88.00</del></div></div>
+            <p>Cut, beard and facial hair, straight-edge razor, enhancements and hot towel by request.</p>
+            <div class="service-meta"><span class="duration">1 hr 5 min</span><a class="service-book" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book ↗</a></div>
+          </article>
+          <article class="service reveal">
+            <div class="service-top"><h3>Line Up</h3><div class="service-price"><strong>$26.35</strong><del>$31.00</del></div></div>
+            <p>Line up only. No fading or tapering. Mustache and beard trimming included.</p>
+            <div class="service-meta"><span class="duration">25 min</span><a class="service-book" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book ↗</a></div>
+          </article>
+          <article class="service reveal">
+            <div class="service-top"><h3>Haircut + Facial Scrub + Black Mask</h3><div class="service-price"><strong>$127.50</strong><del>$150.00</del></div></div>
+            <p>Hot towel, facial scrub and black mask treatment designed to clean pores and remove excess oil.</p>
+            <div class="service-meta"><span class="duration">1 hr 25 min</span><a class="service-book" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book ↗</a></div>
+          </article>
+          <article class="service reveal">
+            <div class="service-top"><h3>Woman’s Cut</h3><div class="service-price"><strong>$38.25</strong><del>$45.00</del></div></div>
+            <p>Women’s cut with designs and parts included at no extra cost.</p>
+            <div class="service-meta"><span class="duration">40 min</span><a class="service-book" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book ↗</a></div>
+          </article>
+          <article class="service reveal">
+            <div class="service-top"><h3>Kid’s Haircut</h3><div class="service-price"><strong>$38.25</strong><del>$45.00</del></div></div>
+            <p>A clean, detailed haircut for younger clients.</p>
+            <div class="service-meta"><span class="duration">40 min</span><a class="service-book" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book ↗</a></div>
+          </article>
+          <article class="service reveal">
+            <div class="service-top"><h3>After Hours Cut</h3><div class="service-price"><strong>$127.50</strong><del>$150.00</del></div></div>
+            <p>Late-night service available between 9 PM and 1 AM. Use Booksy and Instagram to arrange the appointment.</p>
+            <div class="service-meta"><span class="duration">1 hr</span><a class="service-book" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="work">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">The work</div>
+          <h2>Clean blends. Crisp lines. Real clients.</h2>
+          <p>Tap any photo for a closer look.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-btn reveal" data-full="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Burst-Fade-Mohawk.jpg" aria-label="View burst fade mohawk"><img src="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Burst-Fade-Mohawk.jpg" alt="Burst fade mohawk cut by Miles The Barber" loading="lazy" /></button>
+          <button class="gallery-btn reveal" data-full="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Waves-with-Low-Temp-Fade.jpg" aria-label="View waves with low temp fade"><img src="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Waves-with-Low-Temp-Fade.jpg" alt="Waves with low temp fade cut by Miles The Barber" loading="lazy" /></button>
+          <button class="gallery-btn reveal" data-full="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Temp-Fade.jpg" aria-label="View temp fade"><img src="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Temp-Fade.jpg" alt="Temp fade and beard cut by Miles The Barber" loading="lazy" /></button>
+          <button class="gallery-btn reveal" data-full="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Buzz-Cut-with-High-Skin-Fade-and-Line-Up.jpg" aria-label="View buzz cut with high skin fade"><img src="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Buzz-Cut-with-High-Skin-Fade-and-Line-Up.jpg" alt="Buzz cut with high skin fade and line up by Miles The Barber" loading="lazy" /></button>
+          <button class="gallery-btn reveal" data-full="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Buzz-Cut-Fade-with-Shape-Up.jpg" aria-label="View buzz cut fade with shape up"><img src="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Buzz-Cut-Fade-with-Shape-Up.jpg" alt="Buzz cut fade with shape up by Miles The Barber" loading="lazy" /></button>
+          <button class="gallery-btn reveal" data-full="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Low-Skin-Fade-with-Thick-Curly-Afro.jpg" aria-label="View low skin fade with curly afro"><img src="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Low-Skin-Fade-with-Thick-Curly-Afro.jpg" alt="Low skin fade with thick curly afro by Miles The Barber" loading="lazy" /></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="about" style="padding-top:0">
+      <div class="wrap about-grid">
+        <img class="about-portrait reveal" src="https://www.menshairstylestoday.com/wp-content/uploads/2024/06/Miles-The-Barber-In-Los-Angeles.jpg" alt="Portrait of Miles The Barber" loading="lazy" />
+        <div class="about-card reveal">
+          <div class="eyebrow">Meet Miles</div>
+          <h3>Self-taught. Licensed. Built through repetition.</h3>
+          <p>Miles started by cutting his own hair, then his brother’s and neighborhood friends’ hair before moving into a local barbershop. Today, he brings 17 years of experience to a wide range of styles and says bald and skin fades are among his favorite cuts to execute.</p>
+          <div class="facts">
+            <div class="fact"><strong>17</strong><span>Years of experience</span></div>
+            <div class="fact"><strong>5.0</strong><span>Booksy rating</span></div>
+            <div class="fact"><strong>744</strong><span>Booksy reviews</span></div>
+            <div class="fact"><strong>726</strong><span>Five-star reviews</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="reviews" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">Client feedback</div>
+          <h2>The cut gets noticed. The service gets remembered.</h2>
+        </div>
+        <div class="reviews-wrap">
+          <div class="rating-panel reveal">
+            <div><div class="stars">★★★★★</div><div class="rating-big">5.0</div></div>
+            <p>Based on 744 Booksy reviews, including 726 five-star ratings.</p>
+          </div>
+          <div class="review-grid">
+            <article class="review reveal"><div class="stars">★★★★★</div><blockquote>“Great service, extremely hospitable, and professional, cut is 🔥🔥🔥”</blockquote><div class="review-footer"><strong>Rapheal</strong><span>Men’s Cut</span></div></article>
+            <article class="review reveal"><div class="stars">★★★★★</div><blockquote>“Excellent attention to detail, patient, communicative!”</blockquote><div class="review-footer"><strong>David</strong><span>Men’s Cut</span></div></article>
+            <article class="review reveal"><div class="stars">★★★★★</div><blockquote>“Fire cut every time!”</blockquote><div class="review-footer"><strong>Bk</strong><span>Men’s Cut</span></div></article>
+            <article class="review reveal"><div class="stars">★★★★★</div><blockquote>“Clean and precise 🔥”</blockquote><div class="review-footer"><strong>Antonio</strong><span>Men’s Cut</span></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section location" id="location">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="eyebrow">Melrose · Los Angeles</div>
+          <h2>Get in the chair.</h2>
+          <p>Book through Booksy, then head to Miles at 7361 Melrose Ave, Suite 202.</p>
+        </div>
+        <div class="location-card reveal">
+          <div class="address">
+            <h3>7361 Melrose Ave<br>Suite 202<br>Los Angeles, CA 90046</h3>
+            <p>Credit cards accepted · Child-friendly · Wi‑Fi</p>
+          </div>
+          <div>
+            <div class="location-actions">
+              <a class="primary-btn" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book on Booksy ↗</a>
+              <a class="ghost-btn" href="https://www.google.com/maps/search/?api=1&query=Miles+The+Barber+7361+Melrose+Ave+Los+Angeles+CA+90046" target="_blank" rel="noopener">Open Maps ↗</a>
+            </div>
+            <div class="location-list" style="margin-top:18px">
+              <div><span>Instagram</span><strong><a href="https://www.instagram.com/m1lesthebarber/" target="_blank" rel="noopener">@m1lesthebarber ↗</a></strong></div>
+              <div><span>Booking</span><strong>Booksy</strong></div>
+              <div><span>After hours</span><strong>9 PM – 1 AM service</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap reveal">
+        <h2>Your next cut<br>starts here.</h2>
+        <p>Choose your service, lock in a time on Booksy, and let Miles handle the details.</p>
+        <a class="primary-btn" href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">See available times ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"></span><span>Miles<br>The Barber</span></a>
+        <div class="footer-small" style="margin-top:12px">7361 Melrose Ave, Suite 202 · Los Angeles, CA 90046</div>
+      </div>
+      <div class="footer-links">
+        <a href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Booksy</a>
+        <a href="https://www.instagram.com/m1lesthebarber/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Miles+The+Barber+7361+Melrose+Ave+Los+Angeles+CA+90046" target="_blank" rel="noopener">Maps</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="sticky-book" role="region" aria-label="Quick booking">
+    <div class="sticky-copy"><strong>Ready for the chair?</strong><span>Book with Miles on Booksy</span></div>
+    <a href="https://booksy.com/en-us/1586773_miles-the-barber_barber-shop_134655_los-angeles" target="_blank" rel="noopener">Book now ↗</a>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Haircut photo viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close photo viewer">×</button>
+    <img id="lightboxImg" src="" alt="Expanded haircut photo" />
+  </div>
+
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('in'); observer.unobserve(entry.target); } });
+    }, { threshold: .08 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxClose = document.getElementById('lightboxClose');
+    document.querySelectorAll('.gallery-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        lightboxImg.src = btn.dataset.full;
+        lightbox.classList.add('open');
+        document.body.style.overflow = 'hidden';
+        lightboxClose.focus();
+      });
+    });
+    function closeLightbox(){
+      lightbox.classList.remove('open');
+      document.body.style.overflow = '';
+      lightboxImg.src = '';
+    }
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox(); });
+  </script>
+</body>
+</html>
